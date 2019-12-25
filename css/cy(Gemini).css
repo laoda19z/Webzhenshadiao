@@ -1,0 +1,141 @@
+body{
+        height: 715px;
+        width: 1520px;
+    }
+    #bg{
+        height: 715px;
+        width: 1520px;
+        background-color: black;
+    }
+    #div1{
+        height: 715px;
+        width: 1520px;
+        background-size: 1520px 715px;
+     }
+
+    li{
+        list-style-type: none;
+        border-radius: 70%;
+        height: 15px;
+        width: 15px;
+        display: inline-block;
+        opacity: 1;
+    }
+    #box{
+        height: 715px;
+        width: 1520px;
+        opacity: 1;
+    }
+    #img{
+        height: 715px;
+        width: 1520px;
+        opacity: 0;
+    }
+    #star1{
+        position: absolute;
+        top:267px;
+        right:59px;
+        background-color: white;
+    }
+    #star2{
+        position: absolute;
+        top:299px;
+        right:170px;
+        background-color: white;
+    }
+    #star3{
+        position: absolute;
+        top:309px;
+        right:271px;
+        background-color: white;
+    }
+    #star4{
+        position: absolute;
+        top:273px;
+        right:542px;
+        background-color: white;
+    }
+    #star5{
+        position: absolute;
+        top:167px;
+        right:880px;
+        background-color: white;
+    }
+    #star6{
+        position: absolute;
+        top:136px;
+        right:1090px;
+        background-color: white;
+    }
+    #star7{
+        position: absolute;
+        top:138px;
+        right:1146px;
+        background-color:white;
+    }
+    #star8{
+        position: absolute;
+        top:65px;
+        right:709px;
+        background-color: white;
+    }
+    #star9{
+        position: absolute;
+        top:233px;
+        right:1032px;
+        background-color: white;
+    }
+    #star10{
+        position: absolute;
+        top:256px;
+        right:1152px;
+        background-color: white;
+    }
+    #star11{
+        position: absolute;
+        top:234px;
+        right:1256px;
+        background-color: white;
+    }
+    #star12{
+        position: absolute;
+        top:321px;
+        right:1236px;
+        background-color: white;
+    }
+    #star13{
+        position: absolute;
+        top:366px;
+        right:941px;
+        background-color: white;
+    }
+    #star14{
+        position: absolute;
+        top:392px;
+        right:747px;
+        background-color: white;
+    }
+    #star15{
+        position: absolute;
+        top:503px;
+        right:893px;
+        background-color: white;
+    }
+    #star16{
+        position: absolute;
+        top:376px;
+        right:320px;
+        background-color: white;
+    }
+    #star17{
+        position: absolute;
+        top:472px;
+        right:394px;
+        background-color:white;
+    }
+    #star18{
+        position: absolute;
+        top:576px;
+        right:455px;
+        background-color: white;
+    }
