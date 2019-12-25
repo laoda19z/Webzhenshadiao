@@ -7,25 +7,34 @@
 	var isMoving = false;
 	//轮播函数(后移)
 	function next(){
-		index++;
-		navChange();
-		animate(slider,{left:-822*index},function(){
-			if (index==4){
-				slider.style.left = "-822px";
-				index = 1;
-			}
-		});
+		if (!isMoving){
+			isMoving = true;
+			index++;
+			navChange();
+			animate(slider,{left:-822*index},function(){
+				if (index==4){
+					slider.style.left = "-822px";
+					index = 1;
+				}
+				isMoving = false;
+			});
+		}
 	}
 	//轮播函数(前移)
 	function prev(){
-		index--;
-		navChange();
-		animate(slider,{left:-822*index},function(){
-			if (index==0){
-				slider.style.left = "-2469px";
-				index = 3;
-			}
-		});
+		if (!isMoving){
+			isMoving = true;
+			index--;
+			navChange();
+			animate(slider,{left:-822*index},function(){
+				if (index==0){
+					slider.style.left = "-2469px";
+					index = 3;
+				}
+				isMoving = false;
+			});
+		}
+		
 	}
 	var timer = setInterval(next,3000);
 	//鼠标移入
