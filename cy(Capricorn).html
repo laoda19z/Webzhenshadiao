@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>星座之家</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<style>
+    #bg{
+        height: 715px;
+        width: 1520px;
+        background-color: black;
+    }
+    #div1{
+        height: 715px;
+        width: 1520px;
+        background-size: 1520px 715px;
+     }
+
+    li{
+        list-style-type: none;
+        border-radius: 70%;
+        height: 15px;
+        width: 15px;
+        display: inline-block;
+        opacity: 1;
+    }
+    #box{
+        height: 715px;
+        width: 1520px;
+        opacity: 1;
+    }
+    #img{
+        height: 715px;
+        width: 1520px;
+        opacity: 0;
+    }
+    #star1{
+        position: absolute;
+        top:93px;
+        right:185px;
+        background-color: white;
+    }
+    #star2{
+        position: absolute;
+        top:110px;
+        right:225px;
+        background-color: white;
+    }
+    #star3{
+        position: absolute;
+        top:162px;
+        right:210px;
+        background-color: white;
+    }
+    #star4{
+        position: absolute;
+        top:425px;
+        right:352px;
+        background-color: white;
+    }
+    #star5{
+        position: absolute;
+        top:473px;
+        right:405px;
+        background-color: white;
+    }
+    #star6{
+        position: absolute;
+        top:437px;
+        right:927px;
+        background-color: white;
+    }
+    #star7{
+        position: absolute;
+        top:325px;
+        right:1303px;
+        background-color:white;
+    }
+    #star8{
+        position: absolute;
+        top:322px;
+        right:1205px;
+        background-color: white;
+    }
+    #star9{
+        position: absolute;
+        top:310px;
+        right:975px;
+        background-color: white;
+    }
+    #star10{
+        position: absolute;
+        top:283px;
+        right:748px;
+        background-color: white;
+    }
+</style>
+<body>
+    <div id="bg"><div id="div1">
+        <img src="images/cy08.jpg" id="img" >
+        <ul id="box">
+            <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <li></li> <li></li> <li></li> <li></li> <li></li> 
+            <!-- <li id="star1"></li>
+            <li id="star2"></li>
+            <li id="star3"></li>
+            <li id="star4"></li>
+            <li id="star5"></li>
+            <li id="star6"></li>
+            <li id="star7"></li>
+            <li id="star8"></li>
+            <li id="star9"></li>
+            <li id="star10"></li> -->
+        </ul>
+    </div></div>
+</body>
+
+<script type="text/javascript" src="js/cy(flash).js"></script>
+<script type="text/javascript">
+    var li = document.getElementsByTagName("li");
+    setInterval(function() {
+        window.location.href = "zsd(Capricorn).html" 
+    },200*li.length+2000);
+</script>
+   
+</html>
